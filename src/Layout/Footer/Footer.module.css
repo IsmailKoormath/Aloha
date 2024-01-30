@@ -1,0 +1,7 @@
+.footer{
+    background-color: var(--dark);
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    padding-left: 10%;
+}

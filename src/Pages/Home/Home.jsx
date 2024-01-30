@@ -4,6 +4,7 @@ import classes from './Home.module.css'
 import Highlights from './Component/Highlights/Highlights'
 import Categories from './Component/Categories/Categories'
 import TravelGuid from './Component/TravelGuid/TravelGuid'
+import Footer from '../../Layout/Footer/Footer'
 const Home = () => {
     return (
         <div className={classes.home_page}>
@@ -15,9 +16,9 @@ const Home = () => {
             <Highlights />
             <div className={classes.Categories_Guid}>
                 <Categories />
-                <TravelGuid/>
+                <TravelGuid />
             </div>
-
+            <Footer />
         </div>
     )
 }
