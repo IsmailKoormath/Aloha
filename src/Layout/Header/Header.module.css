@@ -30,7 +30,7 @@
   color: var(--Dark);
   font-size: 1rem;
   font-weight: 400;
-    cursor: pointer;
+  cursor: pointer;
 }
 .booking_btn {
   color: var(--white);
@@ -62,6 +62,9 @@
     justify-content: flex-start;
     padding: 2.4rem;
     margin-left: 5%;
+  }
+  .Header ul li {
+    font-size: 1.25rem;
   }
   .crossIcon {
     display: block;
