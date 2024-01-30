@@ -1,0 +1,44 @@
+.home_page {
+  width: 100%;
+  height: auto;
+}
+.hero_section {
+  position: relative;
+  width: 100%;
+  height: 35rem;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-image: url("../../assest/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero_Text {
+  text-align: center;
+  font-size: 8.75rem;
+  font-weight: 700;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.5) 6.44%,
+    #fff 95.08%
+  );
+  margin-top: 4.5rem;
+  background-clip: text;
+  line-height: 8.25rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media only screen and (max-width: 800px) {
+  .hero_Text {
+    font-size: 4rem;
+    line-height: 3.75rem;
+    margin-top: 11.25rem;
+  }
+  .hero_section {
+    padding: 0 0rem;
+    background-image: url("../../assest/responsive_background.png");
+  }
+}
