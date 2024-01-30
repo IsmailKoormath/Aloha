@@ -23,8 +23,6 @@ const Highlights = () => {
             "image": volcanoes
         }
     ]
-
-    console.log(data);
     return (
         <div className={classes.highlights}>
             <div className={classes.container}>
