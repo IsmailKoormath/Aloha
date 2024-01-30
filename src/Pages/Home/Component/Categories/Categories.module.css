@@ -1,0 +1,21 @@
+.categories_section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+ .category_head {
+  color: var(--Dark);
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .categories_section {
+    width: 100%;
+    padding: 0 5%;
+  }
+ .category_head {
+  width: 100%;
+}
+}

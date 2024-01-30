@@ -31,6 +31,15 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.Categories_Guid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 2.5rem;
+  gap: 2rem;
+  background-color: var(--light);
+}
 @media only screen and (max-width: 800px) {
   .hero_Text {
     font-size: 4rem;

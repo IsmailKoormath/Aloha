@@ -4,12 +4,28 @@
   align-items: center;
   background-color: var(--white);
   overflow: auto;
-  text-align: start;
   padding: 2.5rem 0 5rem 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
 }
 .heading {
   padding-bottom: 1.5rem;
 }
 .items {
+  width: 100%;
   display: flex;
+  gap: 1rem;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .highlights {
+  align-items: flex-start;
+  background-color: var(--white);
+  overflow: auto;
+  padding: 2.5rem 1rem 5rem 1rem;
+}
+
 }

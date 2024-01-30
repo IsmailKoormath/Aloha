@@ -27,11 +27,13 @@ const Highlights = () => {
     console.log(data);
     return (
         <div className={classes.highlights}>
+            <div className={classes.container}>
             <h4 className={classes.heading}>Highlights</h4>
             <div className={classes.items}>
                 {data.map((item, index) => (
                     <HighlightCard key={index} title={item.title} subtitle={item.subtitle} image={item.image} />
                 ))}
+            </div>
             </div>
         </div>
     )

@@ -9,7 +9,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 0 0.5rem;
 }
 .cardPic {
   width: 100%;

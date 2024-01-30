@@ -1,0 +1,15 @@
+.categroycard {
+  width: 34rem;
+  display: flex;
+  padding: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.5rem;
+  background: var(--white);
+}
+@media only screen and (max-width: 800px) {
+  .categroycard {
+    max-width: 34rem;
+    width: 100%;
+  }
+}

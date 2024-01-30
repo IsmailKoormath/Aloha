@@ -2,6 +2,8 @@ import React from 'react'
 import Header from '../../Layout/Header/Header'
 import classes from './Home.module.css'
 import Highlights from './Component/Highlights/Highlights'
+import Categories from './Component/Categories/Categories'
+import TravelGuid from './Component/TravelGuid/TravelGuid'
 const Home = () => {
     return (
         <div className={classes.home_page}>
@@ -11,6 +13,10 @@ const Home = () => {
                     to Hawaii</h1>
             </section>
             <Highlights />
+            <div className={classes.Categories_Guid}>
+                <Categories />
+                <TravelGuid/>
+            </div>
 
         </div>
     )
