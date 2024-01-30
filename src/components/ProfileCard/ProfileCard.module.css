@@ -48,3 +48,9 @@
     width: 100%;
   }
 }
+@media only screen and (max-width: 300px) {
+  .profile {
+    width: 6rem;
+    height: 6rem;
+  }
+}
